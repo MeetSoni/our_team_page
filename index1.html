@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>OUR TEAM MEMBERS</h1>
+        <button id="0" onclick="myfin()">Click here to engage with our team</button>
+        <button id="01" onclick="myfun()">BACK To home page</button>
+        
+    </div>
+
+    <div class="row">
+        <div id="1" class="col-4 bg-red">
+            
+                <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/23f2b6ec8f435911852884f1/2.jpg" alt="">
+            
+                <h1>Meet Soni</h1>
+                <h3>Creative leader</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ipsa assumenda dolorem aliquid minus. Id porro ratione dignissimos consectetur aliquid!</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div id="2" class="col-4 bg-bluviolet">
+            <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/dee2a7ea9eea577cab16110a/fff.jpg" alt="">
+            
+            <h1>Meet Soni</h1>
+            <h3>Creative leader</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ipsa assumenda dolorem aliquid minus. Id porro ratione dignissimos consectetur aliquid!</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div  id="3" class="col-4 bg-brown">
+            <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/47d488474b1750ad8f9a684f/fggf.jpg" alt="">
+            
+            <h1>Meet Soni</h1>
+            <h3>Creative leader</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ipsa assumenda dolorem aliquid minus. Id porro ratione dignissimos consectetur aliquid!</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+
+        
+    </div>
+
+
+    <script>
+        function myfin(){
+            document.getElementById('1').style="visibility:visible; transition:10s"
+            document.getElementById('2').style="visibility:visible; transition:2s"
+            document.getElementById('3').style="visibility:visible; transition:2s"
+            document.getElementById('0').style="visibility:hidden; margin-left:-300px; "
+        }
+
+        function myfun(){
+            document.getElementById('1').style="visibility:hidden"
+            document.getElementById('2').style="visibility:hidden"
+            document.getElementById('3').style="visibility:hidden"
+            document.getElementById('0').style="visibility:visible"
+        }
+    </script>
+   
+
+</body>
+</html>

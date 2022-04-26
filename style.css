@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: yellowgreen;
+    /* background-image: url(notebook-natural-laptop-macbook.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.subcont{
+    width: 100%;
+    background-color: yellow;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container button{
+    height: 85px;
+    width: 300px;
+    margin: 20px;
+    border: none;
+    background-color: yellow;
+    font-size: 21px;
+    box-shadow: 0 0 5px 0px black;
+}
+
+
+.col-4{
+    width: 33.33%;
+    height: 405px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -65px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    visibility: hidden;
+
+}
+.col-4 i{
+    margin-left: 10px;
+    border: 10px solid green;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.col-4 h1{
+    margin-top: 20px;
+}
+
+ img{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+margin-top: 0px;
+}
+
+.col-4 h3{
+    visibility: hidden;
+}
+.col-4 p{
+    visibility: hidden;
+}
+.col-4 i{
+    visibility: hidden;
+}
+
+.col-4:hover img{
+    margin-top: -80px;
+    transition: 1s;
+}
+
+.col-4:hover{
+    height: 100%;
+}
+
+.col-4:hover h1{
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.col-4:hover h3{
+    visibility: visible;
+    transition: 1s;
+    margin-top: 20px;
+    color: midnightblue;
+
+}
+
+.col-4:hover p{
+    visibility: visible;
+    transition: 1s;
+    margin-top: 20px;
+
+}
+.col-4:hover i{
+    visibility: visible;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-brown{
+    background-color: darkorange;
+}
+
+.bg-bluviolet{
+    background-color: blueviolet;
+}
